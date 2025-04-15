@@ -1,0 +1,27 @@
+baseURL: "https://shyer.github.io/"
+languageCode: "en-us"
+title: "shyer"
+theme: "PaperModX"
+
+# Enable these PaperModX specific features
+params:
+  author: wickedb
+  defaultTheme: auto
+  ShowShareButtons: true
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  TocSide: right
+  EnableInstantClick: true
+  
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 20

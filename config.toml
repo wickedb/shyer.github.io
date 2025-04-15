@@ -1,0 +1,60 @@
+baseURL = 'https://shyer.github.io/'
+languageCode = 'en-us'
+title = 'shyer'
+theme = 'PaperModX'
+
+# Enable PaperModX features
+[params]
+author = 'wickedb'
+description = 'My personal portfolio and blog where I share my projects and thoughts'
+defaultTheme = 'auto'
+ShowShareButtons = true
+ShowReadingTime = true
+ShowBreadCrumbs = true
+ShowPostNavLinks = true
+ShowCodeCopyButtons = true
+TocSide = 'right'
+EnableInstantClick = true
+
+
+# Cover image settings
+[params.cover]
+responsiveImages = true
+hidden = false
+hiddenInList = false
+hiddenInSingle = false
+linkFullImages = true
+
+# Image processing options
+[imaging]
+quality = 85
+resampleFilter = "Lanczos"
+anchor = "Smart"
+
+
+# Menu items
+[[menu.main]]
+identifier = 'about'
+name = 'About'
+url = '/about/'
+weight = 10
+
+[[menu.main]]
+identifier = 'posts'
+name = 'Posts'
+url = '/posts/'
+weight = 20
+
+[[menu.main]]
+identifier = 'tags'
+name = 'Tags'
+url = '/tags/'
+weight = 30
+
+[[menu.main]]
+identifier = 'archives'
+name = 'Archives'
+url = '/archives/'
+weight = 40
+
+
