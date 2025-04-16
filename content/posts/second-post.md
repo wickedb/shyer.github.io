@@ -5,13 +5,14 @@ draft: false
 tags: ["FPGA", "hardware", "development"]
 categories: ["Essays"]
 cover:
-    image: "images/threeboys.jpg"
+    image: "/images/threeboys.jpg"
+    avif: "/images/threeboys.avif"
     alt: "FPGA Development"
     caption: "Hardware design journey"
     relative: false
     hidden: false
     hiddenInList: false
-    hiddenInSingle: false
+    hiddenInSingle: true
 ---
 
 ## Exploring FPGA Development

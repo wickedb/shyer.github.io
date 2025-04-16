@@ -5,7 +5,8 @@ draft: false
 tags: ["security", "hardware", "research"]
 categories: ["Essays"]
 cover:
-    image: "images/threeboys.jpg"
+    image: "/images/threeboys.jpg"
+    avif: "/images/threeboys.avif"
     alt: "Hardware Security"
     caption: "Exploring hardware security concepts"
     relative: false

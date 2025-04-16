@@ -6,13 +6,14 @@ tags: ["personal", "introduction"]
 categories: ["Essays"]
 # Add a cover image - you'll need to place an actual image in this path
 cover:
-    image: "images/Ada.jpg"
+    image: "/images/Ada.jpg"
     alt: "Cover Image"
     caption: "Welcome to my personal website"
     relative: false # Uses absolute path
     hidden: false
     hiddenInList: false
     hiddenInSingle: false
+    orientation: "vertical"
 ---
 
 ## Welcome to My Website

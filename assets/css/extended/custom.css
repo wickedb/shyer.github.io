@@ -44,8 +44,17 @@
 .post-item .post-item-cover img {
     height: 180px; /* Fixed height for consistent aspect ratio in cards */
     object-fit: cover;
-    object-position: center; /* Center the image in cards */
     width: 100%;
+}
+
+/* Special handling for vertical images in cards */
+.post-item[data-image-orientation="vertical"] .post-item-cover img {
+    object-position: top; /* Show the top part of vertical images */
+}
+
+/* Default positioning for horizontal images */
+.post-item[data-image-orientation="horizontal"] .post-item-cover img {
+    object-position: center; /* Center horizontal images */
 }
 
 /* Cover images in single post view */

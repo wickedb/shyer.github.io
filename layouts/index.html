@@ -25,10 +25,18 @@
     {{ $recentPosts := where (where .Site.RegularPages "Type" "posts") ".Params.categories" "intersect" (slice "Essays") }}
     <div class="posts-grid">
         {{ range first 2 $recentPosts }}
-        <article class="post-item">
+        <article class="post-item" {{ if eq .Params.cover.orientation "vertical" }}data-image-orientation="vertical"{{ else }}data-image-orientation="horizontal"{{ end }}>
             {{ if .Params.cover }}
             <div class="post-item-cover">
-                <img src="{{ .Params.cover.image }}" alt="{{ .Params.cover.alt }}">
+                <picture>
+                    {{- if .Params.cover.avif }}
+                    <source srcset="{{ .Params.cover.avif }}" type="image/avif">
+                    {{- end }}
+                    {{- if .Params.cover.webp }}
+                    <source srcset="{{ .Params.cover.webp }}" type="image/webp">
+                    {{- end }}
+                    <img src="{{ .Params.cover.image }}" alt="{{ .Params.cover.alt }}" loading="lazy">
+                </picture>
             </div>
             {{ end }}
             

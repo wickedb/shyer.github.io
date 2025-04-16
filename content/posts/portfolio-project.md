@@ -5,7 +5,8 @@ draft: false
 tags: ["project", "showcase"]
 categories: ["Essays"]
 cover:
-    image: "images/messenger.jpg"
+    image: "/images/messenger.jpg"
+    avif: "/images/trial.avif"
     alt: "Cover Image"
     caption: "Welcome to my personal website"
     relative: false # Uses absolute path
