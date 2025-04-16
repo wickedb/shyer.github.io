@@ -1,3 +1,8 @@
+/* Monospace Font Override */
+body {
+    font-family: 'JetBrains Mono', 'Courier New', Courier, monospace;
+}
+
 /* Custom theme colors for light mode */
 :root {
     --theme: #F5F2EA; /* Creamy background */
@@ -430,6 +435,154 @@
     transform: translateY(-2px);
 }
 
+/* Post Tags Styling */
+.post-tags-section {
+    margin: 2rem 0;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border);
+}
+
+.post-tags-heading {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.8rem;
+    color: var(--secondary);
+}
+
+.post-tags-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.post-tag {
+    display: inline-block;
+    padding: 0.3rem 0.6rem;
+    background-color: var(--code-bg);
+    color: var(--secondary);
+    border-radius: 4px;
+    font-size: 0.85rem;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    border: 1px solid var(--border);
+}
+
+.post-tag:hover {
+    background-color: var(--accent);
+    color: white;
+    transform: translateY(-2px);
+}
+
+.tag-separator {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: var(--border);
+    display: none;
+}
+
+/* Tag Cloud Styling */
+.tag-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 2rem 0;
+    justify-content: center;
+}
+
+.tag-cloud-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.6rem 1.2rem;
+    background-color: var(--code-bg);
+    color: var(--secondary);
+    border-radius: 30px;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: 1px solid var(--border);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.tag-cloud-item:hover {
+    background-color: var(--accent);
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.tag-name {
+    font-weight: 500;
+}
+
+.tag-count {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 24px;
+    height: 24px;
+    padding: 0 8px;
+    border-radius: 12px;
+    background-color: var(--border);
+    color: var(--secondary);
+    font-size: 0.8rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.tag-cloud-item:hover .tag-count {
+    background-color: rgba(255,255,255,0.3);
+    color: white;
+}
+
+/* Pagination Styling */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+    gap: 1rem;
+}
+
+.pagination-item {
+    display: flex;
+    align-items: center;
+    padding: 0.6rem 1.2rem;
+    background-color: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.pagination-item:hover {
+    background-color: var(--accent);
+    color: white;
+    border-color: var(--accent);
+    transform: translateY(-2px);
+}
+
+.pagination-item-icon {
+    font-size: 1.2rem;
+}
+
+.pagination-item.prev .pagination-item-icon {
+    margin-right: 0.5rem;
+}
+
+.pagination-item.next .pagination-item-icon {
+    margin-left: 0.5rem;
+}
+
+.pagination-info {
+    color: var(--secondary);
+    font-size: 0.95rem;
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .posts-grid {
@@ -438,5 +591,9 @@
     
     .portfolio-cover img {
         height: 200px;
+    }
+    
+    .pagination {
+        flex-wrap: wrap;
     }
 }

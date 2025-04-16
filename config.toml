@@ -11,10 +11,15 @@ defaultTheme = 'auto'
 ShowShareButtons = true
 ShowReadingTime = true
 ShowBreadCrumbs = true
-ShowPostNavLinks = true
+ShowPostNavLinks = false
 ShowCodeCopyButtons = true
 TocSide = 'right'
 EnableInstantClick = true
+
+# Table of Contents settings
+ShowToc = true
+TocOpen = true # Keep TOC open by default
+TocFloating = true # Enable floating/sticky TOC
 
 
 # Cover image settings

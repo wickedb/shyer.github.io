@@ -2,6 +2,7 @@
 title: "My Journey with FPGA Development"
 date: 2025-04-16T08:30:00+05:30
 draft: false
+showTitle: false
 tags: ["FPGA", "hardware", "development"]
 categories: ["Essays"]
 cover:

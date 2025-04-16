@@ -1,0 +1,10 @@
+{{- if .Params.tags -}}
+<div class="post-tags-section">
+  <div class="post-tags-heading">Tags:</div>
+  <div class="post-tags-list">
+    {{- range $index, $tag := ($.GetTerms "tags") -}}
+      <a href="{{ $tag.Permalink }}" class="post-tag">{{ $tag.LinkTitle }}</a>
+    {{- end -}}
+  </div>
+</div>
+{{- end }}

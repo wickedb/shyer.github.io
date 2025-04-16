@@ -18,8 +18,9 @@
 {{- end }}
 
 <!-- Posts Grid Layout -->
+{{ $paginator := .Paginate (.Pages) .Params.paginate }}
 <div class="posts-grid">
-  {{ range .Pages }}
+  {{ range $paginator.Pages }}
   <article class="post-item" {{ if eq .Params.cover.orientation "vertical" }}data-image-orientation="vertical"{{ else }}data-image-orientation="horizontal"{{ end }}>
     {{- if .Params.cover }}
     <div class="post-item-cover">
@@ -52,5 +53,26 @@
   </article>
   {{ end }}
 </div>
+
+<!-- Pagination Controls -->
+{{ if gt .Paginator.TotalPages 1 }}
+<div class="pagination">
+  {{ if .Paginator.HasPrev }}
+  <a class="pagination-item prev" href="{{ .Paginator.Prev.URL }}">
+    <span class="pagination-item-icon">«</span>
+    <span class="pagination-item-text">Previous</span>
+  </a>
+  {{ end }}
+  
+  <span class="pagination-info">Page {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}</span>
+  
+  {{ if .Paginator.HasNext }}
+  <a class="pagination-item next" href="{{ .Paginator.Next.URL }}">
+    <span class="pagination-item-text">Next</span>
+    <span class="pagination-item-icon">»</span>
+  </a>
+  {{ end }}
+</div>
+{{ end }}
 
 {{ end }}
