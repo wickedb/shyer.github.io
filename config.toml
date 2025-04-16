@@ -20,6 +20,12 @@ EnableInstantClick = true
 # Cover image settings
 [params.cover]
 responsiveImages = true
+
+# Allow raw HTML in markdown
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 hidden = false
 hiddenInList = false
 hiddenInSingle = false
