@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>portfolio on shyer</title><link>https://shyer.github.io/tags/portfolio/</link><description>Recent content in portfolio on shyer</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 15 Apr 2025 22:55:30 +0530</lastBuildDate><atom:link href="https://shyer.github.io/tags/portfolio/index.xml" rel="self" type="application/rss+xml"/><item><title>Portfolio Project: Example Work</title><link>https://shyer.github.io/posts/portfolio-project/</link><pubDate>Tue, 15 Apr 2025 22:55:30 +0530</pubDate><guid>https://shyer.github.io/posts/portfolio-project/</guid><description>helo Portfolio Project Example This is an example of how you can showcase your portfolio projects on your website. Each project post can include details about your work, process, and outcomes.
+Project Overview Client/Project Name: Example Project
+Timeline: January - March 2025
+Role: Your role in the project
+Tools Used: List of tools and technologies
+The Challenge Describe the problem or challenge that this project addressed. What were the goals and requirements?</description><content:encoded><![CDATA[<h1 id="helo">helo</h1>
+<h2 id="portfolio-project-example">Portfolio Project Example</h2>
+<p>This is an example of how you can showcase your portfolio projects on your website. Each project post can include details about your work, process, and outcomes.</p>
+<h3 id="project-overview">Project Overview</h3>
+<p><strong>Client/Project Name</strong>: Example Project<br>
+<strong>Timeline</strong>: January - March 2025<br>
+<strong>Role</strong>: Your role in the project<br>
+<strong>Tools Used</strong>: List of tools and technologies</p>
+<h3 id="the-challenge">The Challenge</h3>
+<p>Describe the problem or challenge that this project addressed. What were the goals and requirements?</p>
+<h3 id="the-process">The Process</h3>
+<p>Explain your approach and methodology. What steps did you take to complete the project?</p>
+<ol>
+<li>Research and Discovery</li>
+<li>Planning and Strategy</li>
+<li>Design and Development</li>
+<li>Testing and Refinement</li>
+<li>Delivery and Implementation</li>
+</ol>
+<h3 id="the-result">The Result</h3>
+<p>Share the outcomes and impact of your work. What was achieved? Include metrics or testimonials if available.</p>
+<h3 id="reflections">Reflections</h3>
+<p>What did you learn from this project? What would you do differently next time?</p>
+]]></content:encoded></item></channel></rss>
