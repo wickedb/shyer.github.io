@@ -5,6 +5,10 @@ url: "/about/"
 summary: "About me"
 ---
 
+## Brief introduction
+
+<p class="intro-text">Hey, I'm shreenithi, a design engineer at a RISC-V startup called Incore. I've done things like designing security hardware, getting security hardware to work with our processor, and making sure applications can be authenticated at boot time. </p>
+
 <div class="contact-links">
     <a href="https://linkedin.com/in/shyer" class="contact-link linkedin">
         <span class="contact-icon">LinkedIn</span>
