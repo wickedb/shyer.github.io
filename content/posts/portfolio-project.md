@@ -2,8 +2,16 @@
 title: "Portfolio Project: Example Work"
 date: 2025-04-15T22:55:30+05:30
 draft: false
-tags: ["portfolio", "project", "showcase"]
-categories: ["Portfolio"]
+tags: ["project", "showcase"]
+categories: ["Essays"]
+cover:
+    image: "images/messenger.jpg"
+    alt: "Cover Image"
+    caption: "Welcome to my personal website"
+    relative: false # Uses absolute path
+    hidden: false
+    hiddenInList: false
+    hiddenInSingle: false
 ---
 
 # helo 

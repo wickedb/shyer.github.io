@@ -24,7 +24,7 @@
     
     {{ $recentPosts := where (where .Site.RegularPages "Type" "posts") ".Params.categories" "intersect" (slice "Essays") }}
     <div class="posts-grid">
-        {{ range first 9 $recentPosts }}
+        {{ range first 2 $recentPosts }}
         <article class="post-item">
             {{ if .Params.cover }}
             <div class="post-item-cover">

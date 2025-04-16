@@ -38,12 +38,23 @@
 }
 
 /* Control size of cover images */
-.entry-cover img {
-    max-height: 400px;
-    height: 300px; /* Fixed height for consistent aspect ratio */
-    object-fit: cover; /* This maintains aspect ratio while filling the container */
+
+/* Cover images in list/card views */
+.post-entry .entry-cover img,
+.post-item .post-item-cover img {
+    height: 180px; /* Fixed height for consistent aspect ratio in cards */
+    object-fit: cover;
+    object-position: center; /* Center the image in cards */
     width: 100%;
-    object-position: top; /* Shows the top part of the image */
+}
+
+/* Cover images in single post view */
+.post-single .entry-cover img {
+    max-height: 500px;
+    height: auto; /* Allow more natural height in single post view */
+    object-fit: contain; /* Show the whole image without cropping */
+    width: 100%;
+    margin: 0 auto;
 }
 
 /* Specific control for list view cover images */
@@ -292,6 +303,7 @@
     transition: all 0.3s ease;
     position: relative;
     border: 1px solid var(--tertiary);
+    justify-content: space-between;
 }
 
 .post-item:hover {
@@ -380,6 +392,7 @@
     border: 1px solid var(--accent);
     border-radius: 4px;
     transition: all 0.2s ease;
+    align-self: flex-start;
 }
 
 .read-more:hover {
