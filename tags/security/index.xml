@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>security on shyer</title><link>https://wickedb.github.io/tags/security/</link><description>Recent content in security on shyer</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 16 Apr 2025 09:15:00 +0530</lastBuildDate><atom:link href="https://wickedb.github.io/tags/security/index.xml" rel="self" type="application/rss+xml"/><item><title>The Future of Hardware Security</title><link>https://wickedb.github.io/posts/third-post/</link><pubDate>Wed, 16 Apr 2025 09:15:00 +0530</pubDate><guid>https://wickedb.github.io/posts/third-post/</guid><description>Hardware Security Challenges As our devices become more integrated into our lives, hardware security becomes increasingly important. This post explores emerging trends in this field.
+Critical Vulnerabilities Some areas of concern in modern hardware:
+Side-channel attacks on cryptographic implementations Supply chain vulnerabilities in chip manufacturing Secure boot and trusted execution environments Promising Solutions The industry is developing innovative approaches to these challenges, including physically unclonable functions (PUFs) and formal verification methods.</description><content:encoded><![CDATA[<h2 id="hardware-security-challenges">Hardware Security Challenges</h2>
+<p>As our devices become more integrated into our lives, hardware security becomes increasingly important. This post explores emerging trends in this field.</p>
+<h3 id="critical-vulnerabilities">Critical Vulnerabilities</h3>
+<p>Some areas of concern in modern hardware:</p>
+<ul>
+<li>Side-channel attacks on cryptographic implementations</li>
+<li>Supply chain vulnerabilities in chip manufacturing</li>
+<li>Secure boot and trusted execution environments</li>
+</ul>
+<h3 id="promising-solutions">Promising Solutions</h3>
+<p>The industry is developing innovative approaches to these challenges, including physically unclonable functions (PUFs) and formal verification methods.</p>
+<p>I&rsquo;ll be sharing more insights from my research in this area soon!</p>
+]]></content:encoded></item></channel></rss>
