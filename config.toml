@@ -58,7 +58,7 @@ weight = 20
 
 [[menu.main]]
 identifier = 'tags'
-name = 'Tags'
+name = 'Themes'
 url = '/tags/'
 weight = 30
 

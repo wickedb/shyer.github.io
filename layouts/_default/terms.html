@@ -1,6 +1,9 @@
 {{- define "main" }}
 
-{{- if .Title }}
+{{- if eq .Type "tags" }}
+<header class="page-header">
+    <h1>Themes</h1>
+{{- else if .Title }}
 <header class="page-header">
     <h1>{{ .Title }}</h1>
     {{- if .Description }}
