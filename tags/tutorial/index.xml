@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>tutorial on shyer</title><link>https://wickedb.github.io/tags/tutorial/</link><description>Recent content in tutorial on shyer</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 16 Apr 2025 16:30:00 +0530</lastBuildDate><atom:link href="https://wickedb.github.io/tags/tutorial/index.xml" rel="self" type="application/rss+xml"/><item><title>Table of Contents Example</title><link>https://wickedb.github.io/posts/toc-example/</link><pubDate>Wed, 16 Apr 2025 16:30:00 +0530</pubDate><guid>https://wickedb.github.io/posts/toc-example/</guid><description>Introduction This post demonstrates the floating Table of Contents feature in PaperModX. As you scroll through this page, you&amp;rsquo;ll notice that the TOC stays visible, allowing for easy navigation through longer articles.
+Why Use a Table of Contents? A table of contents helps readers navigate through longer content, making it easier to find specific sections they&amp;rsquo;re interested in. It&amp;rsquo;s especially useful for:
+Tutorial-style posts Documentation Long-form articles Research papers First Main Section This is the first main section of our article.</description><content:encoded><![CDATA[<h2 id="introduction">Introduction</h2>
+<p>This post demonstrates the floating Table of Contents feature in PaperModX. As you scroll through this page, you&rsquo;ll notice that the TOC stays visible, allowing for easy navigation through longer articles.</p>
+<h3 id="why-use-a-table-of-contents">Why Use a Table of Contents?</h3>
+<p>A table of contents helps readers navigate through longer content, making it easier to find specific sections they&rsquo;re interested in. It&rsquo;s especially useful for:</p>
+<ul>
+<li>Tutorial-style posts</li>
+<li>Documentation</li>
+<li>Long-form articles</li>
+<li>Research papers</li>
+</ul>
+<h2 id="first-main-section">First Main Section</h2>
+<p>This is the first main section of our article. The TOC will show this as a top-level item.</p>
+<h3 id="a-subsection">A Subsection</h3>
+<p>This is a subsection under the first main section. The TOC will show this indented under its parent section.</p>
+<h4 id="even-deeper">Even Deeper</h4>
+<p>This is a third-level heading. The TOC will show this with additional indentation, creating a clear hierarchy.</p>
+<h3 id="another-subsection">Another Subsection</h3>
+<p>Here&rsquo;s another subsection to demonstrate how multiple items at the same level appear in the TOC.</p>
+<h2 id="second-main-section">Second Main Section</h2>
+<p>This is the second main section of our article. Having multiple top-level sections helps demonstrate the structure in the TOC.</p>
+<h3 id="code-examples">Code Examples</h3>
+<p>The TOC also works well with code blocks and other content types:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">hello_world</span>():
+    print(<span style="color:#e6db74">&#34;Hello, world!&#34;</span>)
+    
+hello_world()
+</code></pre></div><h3 id="images-and-media">Images and Media</h3>
+<p>You can include images and other media in your content, and the TOC will still provide easy navigation.</p>
+<h2 id="third-main-section">Third Main Section</h2>
+<p>This section demonstrates how the TOC handles longer content that requires scrolling.</p>
+<h3 id="scrolling-behavior">Scrolling Behavior</h3>
+<p>As you scroll down the page, notice how the TOC stays visible, allowing you to jump to any section at any time.</p>
+<h3 id="highlighting">Highlighting</h3>
+<p>Depending on the theme configuration, the current section might be highlighted in the TOC as you scroll through the content.</p>
+<h2 id="customization-options">Customization Options</h2>
+<p>The TOC in PaperModX can be customized in several ways:</p>
+<h3 id="position">Position</h3>
+<p>You can position the TOC on the left or right side of the content.</p>
+<h3 id="default-state">Default State</h3>
+<p>You can configure whether the TOC is open or closed by default.</p>
+<h3 id="per-page-control">Per-Page Control</h3>
+<p>You can enable or disable the TOC on a per-page basis using frontmatter.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>The floating Table of Contents is a powerful feature that enhances the readability and usability of your content. It&rsquo;s especially valuable for longer, structured articles where readers might want to jump between sections.</p>
+<h3 id="next-steps">Next Steps</h3>
+<p>Now that you&rsquo;ve seen how the TOC works, you can start using it in your own content to improve navigation and user experience.</p>
+<h2 id="references">References</h2>
+<p>Here are some additional resources about using TOCs effectively:</p>
+<ol>
+<li>Hugo Documentation</li>
+<li>PaperModX Theme Documentation</li>
+<li>Web Content Accessibility Guidelines</li>
+</ol>
+]]></content:encoded></item></channel></rss>
