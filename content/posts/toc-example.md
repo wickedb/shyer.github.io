@@ -1,17 +1,20 @@
 ---
 title: "Table of Contents Example"
-date: 2025-04-16T16:30:00+05:30
-draft: false
-tags: ["tutorial", "hugo"]
+date: 2025-04-14T16:30:00+05:30
+draft: true
+tags: ["dummy"]
 categories: ["Essays"]
 ShowToc: true
 TocOpen: true
 cover:
-    image: "/images/Ada.jpg"
-    alt: "Example Cover Image"
-    caption: "Testing the Table of Contents feature"
+    image: "/images/messenger.jpg"
+    avif: "/images/trial.avif"
+    alt: "FPGA Development"
+    caption: "Hardware design journey"
     relative: false
-    orientation: "vertical"
+    hidden: false
+    hiddenInList: false
+    hiddenInSingle: true
 ---
 
 ## Introduction
