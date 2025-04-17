@@ -17,7 +17,7 @@ TocSide = 'right'
 EnableInstantClick = true
 
 # Newsletter settings
-enableNewsletter = true
+# enableNewsletter = false  # No longer needed for footer form
 newsletterName = "shyer's Newsletter"
 
 # Table of Contents settings
