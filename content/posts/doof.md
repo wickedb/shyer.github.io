@@ -1,8 +1,8 @@
 ---
 title: "In praise of Doofenshmirtz"
 date: 2022-05-03T16:30:00+05:30
-draft: true
-tags: ["dummy"]
+draft: false
+tags: ["themeless"]
 categories: ["Essays"]
 ShowToc: true
 TocOpen: true
