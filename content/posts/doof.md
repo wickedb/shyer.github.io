@@ -2,7 +2,7 @@
 title: "In praise of Doofenshmirtz"
 date: 2022-05-03T16:30:00+05:30
 draft: false
-tags: ["themeless"]
+tags: ["deadpan"]
 categories: ["Essays"]
 ShowToc: true
 TocOpen: true

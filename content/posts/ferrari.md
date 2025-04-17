@@ -4,7 +4,7 @@ date: 2023-04-24T08:30:00+05:30
 draft: false
 showTitle: false
 ShowToc: false
-tags: ["themeless"]
+tags: ["deadpan"]
 categories: ["Essays"]
 cover:
     image: "/images/threeboys.jpg"

@@ -4,7 +4,7 @@ date: 2025-04-17T08:30:00+05:30
 draft: false
 showTitle: false
 ShowToc: false
-tags: ["themeless"]
+tags: ["inquisitive"]
 categories: ["Essays"]
 cover:
     image: "/images/threeboys.jpg"
