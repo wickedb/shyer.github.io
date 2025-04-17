@@ -5,7 +5,56 @@ We often rely on the abstractions formal systems offer as frameworks for reasoni
 &lt;p>Let us consider a situation where we want to find the force exerted on a cement block by a trolley. One way is to use CAD software that can simulate Newtonian mechanics to compute the resultant force. Another way would be to take the help of an abstraction, like a free body diagram (FBD) with arrows on it. In this case I’m simulating a real-world concept—say, an object being pushed. The FBD, with my interpretation of its arrows and numbers, helps determine the resultant force. If a formal system is a symbol manipulator that helps represent and model a complex concept, then it can act like a simulator for some concept you have in mind. A characteristic of both these simulators is that they help externalize concepts as a concrete set of symbols and rules – a block of wood being pushed versus a FBD of the block or a computer-simulated model.&lt;/p>
 &lt;p>This implies that we cannot blame a formal system for being inexpressive when it was set up to simulate something else. If I have a new concept I want to express, I need to find a formal system that has the ability to represent the ideas or phenomena I want it to. I will need to survey all available formal systems, assign meanings to the symbols and axioms, and see if the implications of the derived theorems really do express my concept. But since this sounds exhausting, we tend to create a formal system from scratch with the concept we want to express at the back of our minds.&lt;/p>
 &lt;p>If I built a simulator to use certain symbols that meet some criteria (axioms), the only way for the simulation to fail to express a concept is if the criteria themselves are incapable of expressing it. Similarly, the formal system was created to express my concept, but that is only my expectation. A formal system doesn’t come with meanings pre-installed. Its symbols and rules are neutral until interpreted. And its expressiveness is constrained by its interpretation. So when it no longer can express a concept, it means our expectations have shifted.&lt;/p>
-&lt;p>This is what it means when we say Newtonian mechanics ‘breaks’: it no longer simulates, with its symbols and theorems, the world we want to express. The expressiveness is not a formal system&amp;rsquo;s inherent property, and instead depends on how it was interpreted. Thus, the shift to a new formal system, for example quantum mechanics with its bra-ket notations, can be seen as outgrowing an older system because our expectations have evolved. Like any simulator, a formal system can only express what it was initially expected to, until it no longer can. And it is generally good to outgrow old tools as our vision matures.&lt;/p></content:encoded><category>Essays</category><category>inquisitive</category><media:content url="https://wickedb.github.io/images/threeboys.jpg" medium="image"/></item><item><title>Profitable business plan</title><link>https://wickedb.github.io/posts/publishing/</link><pubDate>Thu, 13 Mar 2025 08:30:00 +0530</pubDate><guid>https://wickedb.github.io/posts/publishing/</guid><description>Business Plan: The Hello.txt Model™ Step 1: Scalable Duplication When I&amp;rsquo;m on my terminal I say cp hello.txt hello2.txt, I get two of them. I keep doing this cause I love copying.
+&lt;p>This is what it means when we say Newtonian mechanics ‘breaks’: it no longer simulates, with its symbols and theorems, the world we want to express. The expressiveness is not a formal system&amp;rsquo;s inherent property, and instead depends on how it was interpreted. Thus, the shift to a new formal system, for example quantum mechanics with its bra-ket notations, can be seen as outgrowing an older system because our expectations have evolved. Like any simulator, a formal system can only express what it was initially expected to, until it no longer can. And it is generally good to outgrow old tools as our vision matures.&lt;/p></content:encoded><category>Essays</category><category>inquisitive</category><media:content url="https://wickedb.github.io/images/threeboys.jpg" medium="image"/></item><item><title>Table of Contents Example</title><link>https://wickedb.github.io/posts/toc-example/</link><pubDate>Mon, 14 Apr 2025 16:30:00 +0530</pubDate><guid>https://wickedb.github.io/posts/toc-example/</guid><description>Introduction IF YOU CAN SEE THIS THEN I HAVE ATTAINED WORLDYL SUCCESSES</description><content:encoded>&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>IF YOU CAN SEE THIS THEN I HAVE ATTAINED WORLDYL SUCCESSES&lt;/p>
+&lt;!-- ### Why Use a Table of Contents?
+A table of contents helps readers navigate through longer content, making it easier to find specific sections they're interested in. It's especially useful for:
+- Tutorial-style posts
+- Documentation
+- Long-form articles
+- Research papers
+## First Main Section
+This is the first main section of our article. The TOC will show this as a top-level item.
+### A Subsection
+This is a subsection under the first main section. The TOC will show this indented under its parent section.
+#### Even Deeper
+This is a third-level heading. The TOC will show this with additional indentation, creating a clear hierarchy.
+### Another Subsection
+Here's another subsection to demonstrate how multiple items at the same level appear in the TOC.
+## Second Main Section
+This is the second main section of our article. Having multiple top-level sections helps demonstrate the structure in the TOC.
+### Code Examples
+The TOC also works well with code blocks and other content types:
+```python
+def hello_world():
+print("Hello, world!")
+hello_world()
+```
+### Images and Media
+You can include images and other media in your content, and the TOC will still provide easy navigation.
+## Third Main Section
+This section demonstrates how the TOC handles longer content that requires scrolling.
+### Scrolling Behavior
+As you scroll down the page, notice how the TOC stays visible, allowing you to jump to any section at any time.
+### Highlighting
+Depending on the theme configuration, the current section might be highlighted in the TOC as you scroll through the content.
+## Customization Options
+The TOC in PaperModX can be customized in several ways:
+### Position
+You can position the TOC on the left or right side of the content.
+### Default State
+You can configure whether the TOC is open or closed by default.
+### Per-Page Control
+You can enable or disable the TOC on a per-page basis using frontmatter.
+## Conclusion
+The floating Table of Contents is a powerful feature that enhances the readability and usability of your content. It's especially valuable for longer, structured articles where readers might want to jump between sections.
+### Next Steps
+Now that you've seen how the TOC works, you can start using it in your own content to improve navigation and user experience.
+## References
+Here are some additional resources about using TOCs effectively:
+1. Hugo Documentation
+2. PaperModX Theme Documentation
+3. Web Content Accessibility Guidelines --></content:encoded><category>Essays</category><category>dummy</category><media:content url="https://wickedb.github.io/images/messenger.jpg" medium="image"/></item><item><title>Profitable business plan</title><link>https://wickedb.github.io/posts/publishing/</link><pubDate>Thu, 13 Mar 2025 08:30:00 +0530</pubDate><guid>https://wickedb.github.io/posts/publishing/</guid><description>Business Plan: The Hello.txt Model™ Step 1: Scalable Duplication When I&amp;rsquo;m on my terminal I say cp hello.txt hello2.txt, I get two of them. I keep doing this cause I love copying.
 Step 2: Monetizing Distribution But I wish I could charge people money for receiving hello.txt. Every time I send hello.txt via email, I make money off every forward. But that&amp;rsquo;s bad cause emails let people download things.
 Step 3: Paywall-Based Retention What I will do is charge money to just read hello.</description><content:encoded>&lt;h2 id="business-plan-the-hellotxt-model">Business Plan: The Hello.txt Model™&lt;/h2>
 &lt;h3 id="step-1-scalable-duplication">Step 1: Scalable Duplication&lt;/h3>
