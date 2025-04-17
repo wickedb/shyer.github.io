@@ -1,7 +1,7 @@
 ---
 title: "Table of Contents Example"
 date: 2025-04-14T16:30:00+05:30
-draft: true
+draft: false
 tags: ["dummy"]
 categories: ["Essays"]
 ShowToc: true
@@ -19,9 +19,9 @@ cover:
 
 ## Introduction
 
-This post demonstrates the floating Table of Contents feature in PaperModX. As you scroll through this page, you'll notice that the TOC stays visible, allowing for easy navigation through longer articles.
+IF YOU CAN SEE THIS THEN I HAVE ATTAINED WORLDYL SUCCESSES 
 
-### Why Use a Table of Contents?
+<!-- ### Why Use a Table of Contents?
 
 A table of contents helps readers navigate through longer content, making it easier to find specific sections they're interested in. It's especially useful for:
 
@@ -107,4 +107,4 @@ Here are some additional resources about using TOCs effectively:
 
 1. Hugo Documentation
 2. PaperModX Theme Documentation
-3. Web Content Accessibility Guidelines
+3. Web Content Accessibility Guidelines -->
