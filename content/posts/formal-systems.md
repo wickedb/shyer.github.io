@@ -17,7 +17,7 @@ cover:
     hiddenInSingle: true
 ---
 
-# Thinking of formal systems as simulators for exploring ideas
+# Thinking of formal systems as simulators
 
 A formal system is a set of symbols and rules that we use to derive theorems. For example, the imaginary number system is a well-known formal system, with one of its most prominent symbols being ‘i’. Another well-known example is the symbol F commonly used to represent force in Newtonian mechanics. 
 
