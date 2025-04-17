@@ -4,11 +4,11 @@ date: 2025-03-13T08:30:00+05:30
 draft: false
 showTitle: false
 ShowToc: true
-tags: ["deadpan"]
+tags: ["hyperlogical"]
 categories: ["Essays"]
 cover:
-    image: "/images/threeboys.jpg"
-    avif: "/images/trial.avif"
+    image: "/images/threeboys.avif"
+    avif: "/images/threeboys.avif"
     alt: "Formal systems"
     caption: "Formal systems"
     relative: false
