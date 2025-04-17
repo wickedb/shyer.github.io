@@ -16,6 +16,10 @@ ShowCodeCopyButtons = true
 TocSide = 'right'
 EnableInstantClick = true
 
+# Newsletter settings
+enableNewsletter = true
+newsletterName = "shyer's Newsletter"
+
 # Table of Contents settings
 ShowToc = true
 TocOpen = true # Keep TOC open by default
@@ -44,11 +48,7 @@ anchor = "Smart"
 
 
 # Menu items
-[[menu.main]]
-identifier = 'about'
-name = 'About'
-url = '/about/'
-weight = 10
+# About link removed as requested
 
 [[menu.main]]
 identifier = 'posts'
@@ -67,5 +67,11 @@ identifier = 'archives'
 name = 'Archives'
 url = '/archives/'
 weight = 40
+
+[[menu.main]]
+identifier = 'newsletter'
+name = 'Newsletter'
+url = '/newsletter/'
+weight = 50
 
 

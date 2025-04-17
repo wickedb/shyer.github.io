@@ -1,0 +1,139 @@
+<div class="subscribe-form">
+  <form id="brevo-newsletter-form">
+    <div class="input-group">
+      <input type="email" name="email" id="email" placeholder="Your email address" required>
+      <button type="submit">Subscribe</button>
+    </div>
+    <div class="subscribe-option">
+      <span class="label">Get updates on new posts and announcements</span>
+    </div>
+    <div id="status-message" style="margin-top: 10px; display: none;"></div>
+  </form>
+</div>
+
+<style>
+  .subscribe-form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .subscribe-form .input-group {
+    display: flex;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .subscribe-form input[type="email"] {
+    flex-grow: 1;
+    padding: 14px 18px;
+    border: 2px solid var(--signature-bg, rgba(203, 58, 87, 0.239));
+    border-right: none;
+    border-radius: 8px 0 0 8px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .subscribe-form input[type="email"]:focus {
+    border-color: var(--signature, #CB3A56);
+  }
+  
+  .subscribe-form button {
+    background-color: var(--signature, #CB3A56);
+    color: var(--theme);
+    border: none;
+    padding: 0 24px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 0 8px 8px 0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .subscribe-form button:hover {
+    background-color: #b02e47;
+  }
+  
+  .subscribe-option {
+    margin-top: 12px;
+    text-align: center;
+    font-size: 14px;
+    color: var(--secondary);
+  }
+  
+  #status-message {
+    text-align: center;
+    padding: 8px;
+    border-radius: 4px;
+    font-weight: 500;
+  }
+</style>
+
+<script>
+  document.getElementById('brevo-newsletter-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    const email = document.getElementById('email').value;
+    const statusMessage = document.getElementById('status-message');
+    
+    // Show loading message
+    statusMessage.textContent = 'Subscribing...';
+    statusMessage.style.display = 'block';
+    statusMessage.style.color = '#666';
+    
+    // Create a new XMLHttpRequest
+    const xhr = new XMLHttpRequest();
+    xhr.open('POST', 'https://api.brevo.com/v3/contacts', true);
+    xhr.setRequestHeader('Content-Type', 'application/json');
+    xhr.setRequestHeader('api-key', 'REMOVED_API_KEY');
+    
+    xhr.onload = function() {
+      if (xhr.status >= 200 && xhr.status < 300) {
+        // Success
+        statusMessage.textContent = 'Thank you for subscribing!';
+        statusMessage.style.color = 'green';
+        document.getElementById('email').value = '';
+        
+        // Redirect after a short delay
+        setTimeout(function() {
+          window.location.href = '/thank-you/';
+        }, 1500);
+      } else {
+        // Error
+        console.error('Request failed with status ' + xhr.status);
+        console.error('Response:', xhr.responseText);
+        
+        try {
+          const response = JSON.parse(xhr.responseText);
+          if (response.code === 'duplicate_parameter') {
+            statusMessage.textContent = 'You are already subscribed!';
+            statusMessage.style.color = 'blue';
+          } else {
+            statusMessage.textContent = 'Error: ' + (response.message || 'Unknown error');
+            statusMessage.style.color = 'red';
+          }
+        } catch (e) {
+          statusMessage.textContent = 'There was an error subscribing you. Please try again.';
+          statusMessage.style.color = 'red';
+        }
+      }
+    };
+    
+    xhr.onerror = function() {
+      console.error('Request failed');
+      statusMessage.textContent = 'Network error. Please try again later.';
+      statusMessage.style.color = 'red';
+    };
+    
+    // Prepare the data
+    const data = JSON.stringify({
+      email: email,
+      listIds: [7],
+      updateEnabled: true
+    });
+    
+    // Send the request
+    xhr.send(data);
+  });
+</script>
