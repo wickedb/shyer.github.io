@@ -23,7 +23,7 @@ cover:
 When I'm on my terminal I say `cp hello.txt hello2.txt`, I get two of them. I keep doing this cause I love copying.
 
 ### Step 2: Monetizing Distribution
-But I wish I could charge people money for receiving hello.txt. Every time I will send hello.txt out via email, and make money off every forward.  But that's bad cause emails let people download things.
+But I wish I could charge people money for receiving hello.txt. Every time I send hello.txt via email, I make money off every forward.  But that's bad cause emails let people download things.
 
 ### Step 3: Paywall-Based Retention
 What I will do is charge money to just read hello.txt on my own website page. Then when people log off and forget what they read they come back and need to pay me to read it. But I'm too kind — I let them pay at once for a year's worth of coming backs. So they can forget all they want until next year.
