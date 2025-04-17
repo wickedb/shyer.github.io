@@ -8,7 +8,7 @@ tags: ["themeless"]
 categories: ["Essays"]
 cover:
     image: "/images/threeboys.jpg"
-    avif: "/images/trial.avif"
+    avif: "/images/symbols.avif"
     alt: "Formal systems"
     caption: "Formal systems"
     relative: false
