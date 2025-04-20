@@ -16,9 +16,8 @@ ShowCodeCopyButtons = true
 TocSide = 'right'
 EnableInstantClick = true
 
-# Newsletter settings
-# enableNewsletter = false  # No longer needed for footer form
-newsletterName = "shyer's Newsletter"
+# Newsletter settings removed
+
 
 # Table of Contents settings
 ShowToc = true
@@ -48,7 +47,11 @@ anchor = "Smart"
 
 
 # Menu items
-# About link removed as requested
+[[menu.main]]
+identifier = 'about'
+name = 'About'
+url = '/about/'
+weight = 10
 
 [[menu.main]]
 identifier = 'posts'
@@ -68,10 +71,6 @@ name = 'Archives'
 url = '/archives/'
 weight = 40
 
-[[menu.main]]
-identifier = 'newsletter'
-name = 'Newsletter'
-url = '/newsletter/'
-weight = 50
+
 
 
