@@ -1,7 +1,7 @@
 ---
 title: "Table of Contents Example"
 date: 2025-04-17T16:30:00+05:30
-draft: false
+draft: true
 tags: ["dummy"]
 categories: ["Essays"]
 ShowToc: true
