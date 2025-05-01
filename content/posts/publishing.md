@@ -1,7 +1,7 @@
 ---
 title: "Profitable business plan"
 date: 2025-03-13T08:30:00+05:30
-draft: false
+draft: true
 showTitle: false
 ShowToc: true
 tags: ["hyperlogical"]
